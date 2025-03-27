@@ -7,5 +7,3 @@ compatibility_flags = ["nodejs_compat"]
 kv_namespaces = [
   { binding = "SUBLINK_KV", id = "1234" }
 ]
-[build]
-command = "pnpm install --no-frozen-lockfile && pnpm build"
